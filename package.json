@@ -1,0 +1,46 @@
+{
+  "name": "react-boilerplate-january-2019",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --color --hot --open --env.development",
+    "clean": "rm -r dist",
+    "build": "webpack --mode production --progress --env.production",
+    "cleanbuild": "npm run clean & npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/temelm/react-boilerplate-january-2019.git"
+  },
+  "author": "Mustafa Temel <mustafatemel90@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/temelm/react-boilerplate-january-2019/issues"
+  },
+  "homepage": "https://github.com/temelm/react-boilerplate-january-2019#readme",
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "autoprefixer": "^9.4.3",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^2.1.0",
+    "file-loader": "^3.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "^4.11.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "uglifyjs-webpack-plugin": "^2.1.1",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.14"
+  }
+}

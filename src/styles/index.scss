@@ -1,0 +1,17 @@
+$baseWidth: 320px;
+$sectionPadding: 32px;
+$fontColorDark: #222222;
+
+body {
+  color: $fontColorDark;
+  font-family: "Inconsolata", sans-serif;
+  font-size: medium;
+  margin: 0;
+  min-width: $baseWidth;
+}
+
+section {
+  padding: $sectionPadding;
+}
+
+@import './hello';
